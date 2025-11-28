@@ -1,0 +1,11 @@
+/obj/
+/bin/
+/alire/
+/config/
+
+# ChatGPT suggested this so that project-specific settings would be commited, but not user settings.
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+

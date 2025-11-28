@@ -1,0 +1,10 @@
+name = "png_explorer"
+description = "A tool to display PNG file internals"
+version = "0.1.0-dev"
+
+authors = ["Anne Chapin"]
+maintainers = ["Anne Chapin <ladyslipper.glade@gmail.com>"]
+maintainers-logins = ["ladyslipper-glade"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = []
