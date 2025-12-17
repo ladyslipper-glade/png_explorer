@@ -3,6 +3,9 @@
 /alire/
 /config/
 
+# Python virtual environment
+.venv/
+
 # ChatGPT suggested this so that project-specific settings would be commited, but not user settings.
 .vscode/*
 !.vscode/settings.json

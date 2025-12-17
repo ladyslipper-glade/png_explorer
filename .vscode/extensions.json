@@ -1,6 +1,15 @@
 {
   "recommendations": [
+    // 1. Primary extension for Ada language support.
     "adacore.ada",
-    "lextudio.restructuredtext"
+
+    // 2. Extension for reStructuredText support and preview.
+    "lextudio.restructuredtext",
+
+    // 3. Simple reStructuredText syntax highlighting (recommended by lextudio.restructuredtext).
+    "trond-snekvik.simple-rst",
+
+    // 4. RST Language Server Protocol support by Esbonio (recommended by lextudio.restructuredtext).
+    "swyddfa.esbonio"
   ]
 }

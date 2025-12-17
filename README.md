@@ -83,6 +83,40 @@ version of this file was created by Warp itself, but can be edited freely to imp
 information known to the agent. I may experiment with other agents in the future (Gemini CLI or
 Claude Code), but I don't know which of them would be best for use with Ada.
 
+## Documentation
+
+The documentation is in reStructuredText (RST) format in the `doc` folder. It can be compiled
+into HTML (and potentially other formats) using the Sphinx tool. To install Sphinx, you will
+first need to configure a Python virtual environment in the root of the project:
+
+```bash
+python -m venv .venv
+```
+
+Next, activate that environment using:
+
+```bash
+source .venv/bin/activate
+```
+
+You can use the `deactivate` command to return to the global Python environment when you are
+ready to do so. On Windows, with PowerShell, activate the environment using the command
+`.venv\Scripts\Activate.ps1`.
+
+Finally, install the packages defined in `requirements.txt` using:
+
+```bash
+pip install -r requirements.txt
+```
+
+Now you are ready to compile the documentation. Go into the `doc` folder and do:
+
+```bash
+make html
+```
+
+The HTML documentation is put into `doc/_build/html`.
+
 ## License
 
 This project is licensed under the **MIT License** or the **Apache License, Version 2.0**, and
