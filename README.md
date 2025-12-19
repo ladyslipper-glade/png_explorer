@@ -65,6 +65,15 @@ alr edit
 This will open VS Code on the project folder as desired. Recommended extensions will then be
 installed (with confirmation) if they are not already.
 
+### Visual Studio Code in WSL
+
+If you are using WSL on a Windows system for development, using Visual Studio Code is
+straightforward. Be sure you have the WSL extension installed. Then, inside WSL, launch Visual
+Studio Code exactly as described above. Note that certain extensions will need to be
+(re)installed in WSL so they can access the project's files. Visual Studio Code maintains a
+distinction between "local" extensions installed in the enclosing Windows environment, and "WSL"
+extensions installed in the WSL environment.
+
 ### Helix
 
 Unfortunately, I don't know of a good way to launch Helix with the right `PATH` to find the Ada

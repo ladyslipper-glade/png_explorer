@@ -4,6 +4,8 @@ Usage Guide
 Running PNG Explorer
 --------------------
 
+.. todo:: Add more details about running PNG Explorer (sample TODO item)
+
 The program is run by specifying the path to the PNG file you wish to inspect. If no options are
 given, PNG Explorer will print a summary of all chunks in the file.
 

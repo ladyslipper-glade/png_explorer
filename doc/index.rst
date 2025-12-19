@@ -16,3 +16,7 @@ PNG Explorer Documentation
 
 Welcome to the documentation for PNG Explorer, a terminal-based utility written in Ada for
 inspecting the internal structure of Portable Network Graphics (PNG) files.
+
+Current Task List
+-----------------
+.. todolist::
