@@ -76,13 +76,16 @@ extensions installed in the WSL environment.
 
 ### Helix
 
-Unfortunately, I don't know of a good way to launch Helix with the right `PATH` to find the Ada
-compiler, aside from doing a lot of manual fiddling with shell scripts. However, Helix should
-automatically find the Ada Language Server if you installed it on your `PATH` previously. Open
-Helix on the project folder (where the `.helix` configuration folder is located) so that it will
-understand the scope of the project correctly.
+First, install the [Ada Language Server](https://github.com/AdaCore/ada_language_server)
+somewhere on your `PATH`. Next, tell Alire that you are using Helix as your editor by doing:
 
-_TODO_: Is there a way to teach Alire about other editors?
+```bash
+alr edit --select-editor
+```
+
+Select the "Other" editor option, and provide the command line `hx ${CRATE_ROOT}`. You can then
+start Helix with the right environment using `alr edit` as before. Helix will immediately jump
+into the file picker starting at the root of the repository.
 
 ## AI Assistants
 
