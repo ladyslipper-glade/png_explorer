@@ -8,6 +8,22 @@ Anne
 
 ## Setup
 
+NOTE: This repository makes use of Git LFS. Be sure you have Git LFS installed before you clone
+this repository. If the command `git lfs version` returns an error about how `lfs` is an unknown
+Git command, then you do *not* have Git LFS installed, and you will need to address that. For
+example, on Ubuntu Linux:
+
+```bash
+sudo apt install git-lfs
+git lfs install
+```
+
+The first command installs the necessary software system-wide. The second command adds the Git
+LFS filters to your global `.gitconfig` file. You can then clone and work with this repository
+normally. If you accidentally cloned this repository without having Git LFS installed, you can
+fix your clone using `git lfs pull`. This will resolve the pointers to the large files with
+their contents.
+
 This project uses [Alire](https://alire.ada.dev/) as its build and packaging tool. After
 installing Alire, use `alr toolchain --select` to select an Ada toolchain appropriate for your
 system. In general, you will want the latest version of the "native" toolchain. This command
