@@ -11,7 +11,7 @@ package body PNG is
    procedure Verify_Signature (File : Byte_IO.File_Type) is
       type Signature_Array is array (0 .. 7) of PNG_Byte;
 
-      Expected_Signature : constant Signature_Array := (137, 80, 78, 71, 13, 10, 26, 10);
+      Expected_Signature : constant Signature_Array := [137, 80, 78, 71, 13, 10, 26, 10];
       Actual_Signature   :          Signature_Array;
    begin
       for I in Signature_Array'Range loop
