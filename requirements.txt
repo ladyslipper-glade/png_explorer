@@ -1,13 +1,20 @@
+aiosqlite==0.22.1
 alabaster==1.0.0
+attrs==26.1.0
 babel==2.17.0
+cattrs==26.1.0
 certifi==2025.11.12
 charset-normalizer==3.4.4
 docutils==0.21.2
+esbonio==2.0.0
 idna==3.11
 imagesize==1.4.1
 Jinja2==3.1.6
+lsprotocol==2025.0.0
 MarkupSafe==3.0.3
 packaging==25.0
+platformdirs==4.9.6
+pygls==2.1.1
 Pygments==2.19.2
 requests==2.32.5
 roman-numerals==4.0.0
@@ -22,4 +29,6 @@ sphinxcontrib-jquery==4.1
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
+typing_extensions==4.15.0
 urllib3==2.6.2
+websockets==16.0

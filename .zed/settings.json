@@ -1,0 +1,14 @@
+{
+  "lsp": {
+    "esbonio": {
+      "binary": {
+        "arguments": ["server"],
+      },
+      "initialization_options": {
+        "sphinx": {
+          "confDir": "docs/conf.py",
+        },
+      },
+    },
+  },
+}
